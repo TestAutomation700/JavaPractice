@@ -1,0 +1,32 @@
+package JavaPractice.JavaConcepts;
+
+//declaring the class as abstract since all the methods in interface are not implemented
+
+abstract public class ClassImplementsInterface implements TestInterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x = TestInterface.a;
+		System.out.println(x);
+
+	}
+
+	@Override
+	public void sample2() {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+
+}
+
+//implementing the unimplemented methods in child class through inheritance
+class Test extends ClassImplementsInterface {
+	
+	public void sample3() {
+		
+	}
+	
+}

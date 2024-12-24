@@ -1,0 +1,22 @@
+package JavaPractice.JavaConcepts;
+
+class Bank {
+    void calculateLoanInterest(String customerType) {
+        class LoanInterest {
+            void displayInterestRate() {
+                if (customerType.equals("Regular")) {
+                    System.out.println("Interest rate: 7%");
+                } else {
+                    System.out.println("Interest rate: 5%");
+                }
+            }
+        }
+        LoanInterest loanInterest = new LoanInterest();
+        loanInterest.displayInterestRate();
+    }
+
+    public static void main(String[] args) {
+        Bank bank = new Bank();
+        bank.calculateLoanInterest("Premium");
+    }
+}

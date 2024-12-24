@@ -1,0 +1,62 @@
+package JavaPractice.JavaConcepts;
+
+
+	
+abstract class Vehicle {
+		 
+		 String name;
+		 int year;
+		 
+		 public Vehicle(String name, int year) {
+			 this.name=name;
+			 this.year=year;
+		 }
+		 
+		 void drive() {
+			 
+		 }
+
+		 
+	 
+	 class Car extends Vehicle  {
+		 
+		 String model;
+		 
+		 public Car(String name, int year, String model) {
+			 super(name, year);
+			 this.model=model;
+		 }
+		 
+		 void drive() {
+			 System.out.println("vehicle driving "+name+" is model "+model+" is made in year "+year);
+		 }
+		 
+	 }
+	 
+	 class Bike extends Vehicle {
+		 
+		 String type;
+		 
+		 public Bike(String name, int year, String type) {
+			 super(name, year);
+			 this.type=type;
+		 }
+		 
+		 void drive() {
+			 System.out.println("vehicle driving "+name+" is type "+type+" is made in year "+year);
+		 }
+		 
+	
+  public class AbstractClassConstructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Car car = new Car("Toyota",2022, "Corolla");
+		car.drive();
+		Bike bike = new Bike("Kawasaki",2023,"Sporting");
+		bike.drive();
+
+	}
+
+}

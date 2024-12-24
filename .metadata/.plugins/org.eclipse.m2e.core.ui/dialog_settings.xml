@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\0035G3744\eclipse-workspace\SampleJavaPrograms\src\test\java\JavaPrograms\SampleJavaPrograms\VarArgs.java"/>
+			<item value="C:\Users\0035G3744\eclipse-workspace\cucumberDemo"/>
+			<item value="C:\Users\0035G3744\eclipse-workspace\Test\src\sample\Practice.java"/>
+			<item value="C:\Users\0035G3744\eclipse-workspace"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="JavaPractice.JavaConcepts"/>
+			<item value="SysPropVarDemo.SysPropVar"/>
+			<item value="Demo.TestNgCucumber"/>
+			<item value="cucumber.cucumberDemo"/>
+			<item value="com.example"/>
+			<item value="CucumberTest.CucumberDemo"/>
+			<item value="DemoTest.TestNGDemo"/>
+			<item value="TestNGDemo.SampleTest"/>
+			<item value="JavaPrograms.Collections"/>
+			<item value="JavaPrograms.SampleJavaPrograms"/>
+		</list>
+		<list key="groupId">
+			<item value="JavaPractice"/>
+			<item value="SysPropVarDemo"/>
+			<item value="Demo"/>
+			<item value="cucumber"/>
+			<item value="com"/>
+			<item value="CucumberTest"/>
+			<item value="DemoTest"/>
+			<item value="TestNGDemo"/>
+			<item value="JavaPrograms"/>
+		</list>
+		<list key="artifactId">
+			<item value="JavaConcepts"/>
+			<item value="SysPropVar"/>
+			<item value="TestNgCucumber"/>
+			<item value="cucumberDemo"/>
+			<item value="example"/>
+			<item value="CucumberDemo"/>
+			<item value="TestNGDemo"/>
+			<item value="SampleTest"/>
+			<item value="Collections"/>
+			<item value="SampleJavaPrograms"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="836"/>
+		<item key="x" value="720"/>
+		<item key="y" value="0"/>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="new"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="new"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

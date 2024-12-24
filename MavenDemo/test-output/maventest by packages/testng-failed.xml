@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [maventest by packages]">
+  <test parallel="none" name="org.demo.maventest(failed)" preserve-order="true">
+    <classes>
+      <class name="org.demo.maventest.BrowserLaunchTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="launchGmail"/>
+        </methods>
+      </class> <!-- org.demo.maventest.BrowserLaunchTest -->
+    </classes>
+  </test> <!-- org.demo.maventest(failed) -->
+</suite> <!-- Failed suite [maventest by packages] -->

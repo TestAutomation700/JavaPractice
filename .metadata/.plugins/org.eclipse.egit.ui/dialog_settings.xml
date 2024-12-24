@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\Users\0035G3744\git\selenium_java\.git"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/TestAutomation700/selenium_java.git"/>
+		<item value="https://vsureshbabu@bitbucket.org/discounttire_omni/dt-salesforce-test-automation.git"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+</section>

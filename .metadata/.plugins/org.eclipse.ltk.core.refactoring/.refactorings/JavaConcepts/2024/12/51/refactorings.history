@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;JavaPractice.JavaConcepts.AnonymousInnerClass.java&apos; to &apos;LocalInnerClass.java&apos;&#x0D;&#x0A;- Original project: &apos;JavaConcepts&apos;&#x0D;&#x0A;- Original element: &apos;JavaPractice.JavaConcepts.AnonymousInnerClass.java&apos;&#x0D;&#x0A;- Renamed element: &apos;JavaPractice.JavaConcepts.LocalInnerClass.java&apos;" description="Rename compilation unit &apos;AnonymousInnerClass.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;JavaPractice.JavaConcepts{AnonymousInnerClass.java" name="LocalInnerClass.java" references="false" stamp="1734800661852" version="1.0"/>
+</session>

@@ -1,0 +1,40 @@
+package JavaPractice.JavaConcepts;
+
+
+class OuterClass {
+
+	// outer-class method
+	public void show() {
+		System.out.println("In a Show");
+	}
+
+	// Non-static Inner class
+	class InnerClass {
+		public void config() {
+			System.out.println("In Config");
+		}
+	}
+
+}
+
+
+public class InnerClassDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//to access outer-class methods create object of outer-class
+		
+		OuterClass oc = new OuterClass();
+		oc.show();
+		
+		//syntax to create object for Non-Static Inner-class
+		//outerclassname.innerclassname innerclassreference = outerclassobjectrefrence.new innerclassname();
+		
+		OuterClass.InnerClass ic = oc.new InnerClass();
+		ic.config();
+		
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package JavaPractice.JavaConcepts;
+
+
+class OuterClass {
+	
+	//outer-class method
+	public void show () {
+		System.out.println("In a Show");
+	}
+	
+	   class InnerClass {
+		   public void config() {
+			   System.out.println("In Config");
+		   }
+	   } 
+		   
+	   }
+
+
+public class InnerClassDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

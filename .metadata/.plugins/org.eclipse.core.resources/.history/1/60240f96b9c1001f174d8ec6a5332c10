@@ -1,0 +1,17 @@
+package JavaPractice.JavaConcepts;
+
+import java.io.FileInputStream;
+
+public class ExceptionHandling {
+	
+	class FileHandling {
+		
+		FileInputStream fis = new FileInputStream(null);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

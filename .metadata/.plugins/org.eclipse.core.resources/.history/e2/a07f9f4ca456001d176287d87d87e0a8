@@ -1,0 +1,17 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str = "I've 5 yrs exp and i am 20 yrs old";
+		
+		String[] split_str = str.split(" ");
+		
+		for(int i=0; i<split_str.length; i++) {
+			System.out.println(split_str[i]);
+		}
+
+	}
+
+}

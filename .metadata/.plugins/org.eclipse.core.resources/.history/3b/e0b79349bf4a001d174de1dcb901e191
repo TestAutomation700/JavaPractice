@@ -1,0 +1,40 @@
+package Dropdowns;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class DynamicDropdown {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--disable-notifications");
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\DriverFiles\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver(options);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		
+		driver.get("https://www.spicejet.com/");
+		driver.manage().window().maximize();
+		
+//		JavascriptExecutor je = (JavascriptExecutor)driver;
+//		String Title = je.executeScript("return document.title;").toString();
+//		System.out.println(Title);
+//		Thread.sleep(2000L);
+		
+		driver.findElement(By.xpath("//input[@value='']")).click();
+		//driver.findElement(By.xpath("(//input[contains(@class,'css-1cwyjr8')])[1]")).sendKeys("DEL");
+		
+		//driver.quit();
+		
+		
+	}
+
+}

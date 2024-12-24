@@ -1,0 +1,22 @@
+package JavaPractice.JavaConcepts;
+
+class LocalInnerClass {
+    void calculateLoanInterest(String customerType) {
+        class LoanInterest {
+            void displayInterestRate() {
+                if (customerType.equals("Regular")) {
+                    System.out.println("Interest rate: 7%");
+                } else {
+                    System.out.println("Interest rate: 5%");
+                }
+            }
+        }
+        LoanInterest loanInterest = new LoanInterest();
+        loanInterest.displayInterestRate();
+    }
+
+    public static void main(String[] args) {
+        AnonymousInnerClass bank = new AnonymousInnerClass();
+        bank.calculateLoanInterest("Premium");
+    }
+}

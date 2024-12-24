@@ -1,0 +1,17 @@
+package sample;
+
+abstract class shape {
+	
+
+	shape(String name) {
+		this.name=name;
+	}
+	
+	abstract public void draw();
+	abstract public double area();
+	
+}
+
+public class AbstractClassDemo {
+
+}

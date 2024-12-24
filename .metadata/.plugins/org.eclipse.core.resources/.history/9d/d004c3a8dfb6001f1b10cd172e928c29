@@ -1,0 +1,44 @@
+package JavaPractice.JavaConcepts;
+
+
+//Vehicle Class
+class Vehicle {
+ void start() {
+     System.out.println("Vehicle is starting");
+ }
+
+ void stop() {
+     System.out.println("Vehicle is stopped");
+ }
+}
+
+//Car Class - Inherits Vehicle
+class Car extends Vehicle {
+ void playMusic() {
+     System.out.println("Car Music is playing");
+ }
+}
+
+//Bike Class - Inherits Vehicle
+class Bike extends Vehicle {
+ void doStunt() {
+     System.out.println("Bike Stunts");
+ }
+}
+
+//Main Class
+public class Inheritance_ISA {
+ public static void main(String[] args) {
+     // Creating Car object
+     Car car = new Car();
+     car.start();
+     car.playMusic();
+     car.stop();
+
+     // Creating Bike object
+     Bike bike = new Bike();
+     bike.start();
+     bike.doStunt();
+     bike.stop();
+ }
+}

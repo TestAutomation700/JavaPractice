@@ -1,0 +1,32 @@
+package JavaPractice.JavaConcepts;
+
+ public class AbstractClassConstructor {
+	
+	 
+	 abstract class Vehicle {
+		 
+		 String name;
+		 int year;
+		 
+		 public Vehicle(String name, int year) {
+			 this.name=name;
+			 this.year=year;
+		 }
+		 
+		 void drive() {
+			 
+		 }
+		
+	 }
+	 
+	 class Car extends Vehicle {
+		 
+	 }
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
