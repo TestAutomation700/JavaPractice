@@ -16,7 +16,6 @@ abstract public class ClassImplementsInterface implements TestInterface {
 
 	}
 
-	@Override
 	public void sample2() {
 		// TODO Auto-generated method stub
 		
