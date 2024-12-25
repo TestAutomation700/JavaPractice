@@ -10,6 +10,6 @@ public interface TestInterface {
 	
 	void sample2();
 	
-	void sample3(); //removing comment
+	void sample3(); 
 
 }
