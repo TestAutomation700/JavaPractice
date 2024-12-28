@@ -27590,3 +27590,70 @@ org.eclipse.core.runtime.CoreException: Launch configuration Instance references
 2024-12-24 11:22:35,964 [Worker-542: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\eclipse-workspace\Test\src\main\resources
 2024-12-24 11:22:35,965 [Worker-542: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-12-24 11:22:35,966 [Worker-542: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\eclipse-workspace\Test\src\test\resources
+2024-12-25 17:16:07,286 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-25 17:16:28,326 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: JavaPrograms:Collections:0.0.1-SNAPSHOT @ C:\Users\0035G3744\git\JavaPractice\Collections\pom.xml.
+2024-12-25 17:16:33,332 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:16:33,333 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\Collections\src\main\resources
+2024-12-25 17:16:33,338 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:16:33,338 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\Collections\src\test\resources
+2024-12-25 17:16:34,275 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: JavaPractice:JavaConcepts:0.0.1-SNAPSHOT @ C:\Users\0035G3744\git\JavaPractice\JavaConcepts\pom.xml.
+2024-12-25 17:16:34,740 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:16:34,741 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\JavaConcepts\src\main\resources
+2024-12-25 17:16:34,743 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:16:34,744 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\JavaConcepts\src\test\resources
+2024-12-25 17:16:39,749 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: new:new:0.0.1-SNAPSHOT @ C:\Users\0035G3744\git\JavaPractice\MavenDemo\pom.xml.
+2024-12-25 17:16:41,469 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-12-25 17:16:41,473 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\MavenDemo\src\main\resources
+2024-12-25 17:16:41,476 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-12-25 17:16:41,477 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\MavenDemo\src\test\resources
+2024-12-25 17:16:42,116 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: JavaPrograms:SampleJavaPrograms:0.0.1-SNAPSHOT @ C:\Users\0035G3744\git\JavaPractice\SampleJavaPrograms\pom.xml.
+2024-12-25 17:16:42,387 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:16:42,387 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\SampleJavaPrograms\src\main\resources
+2024-12-25 17:16:42,390 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:16:42,391 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\SampleJavaPrograms\src\test\resources
+2024-12-25 17:16:42,860 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: TestNGDemo:SampleTest:0.0.1-SNAPSHOT @ C:\Users\0035G3744\git\JavaPractice\SampleTest\pom.xml.
+2024-12-25 17:16:44,040 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:16:44,041 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\SampleTest\src\main\resources
+2024-12-25 17:16:44,044 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:16:44,044 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\SampleTest\src\test\resources
+2024-12-25 17:16:45,093 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SysPropVarDemo:SysPropVar:0.0.1-SNAPSHOT @ C:\Users\0035G3744\git\JavaPractice\SysPropVar\pom.xml.
+2024-12-25 17:16:46,402 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:16:46,403 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\SysPropVar\src\main\resources
+2024-12-25 17:16:46,404 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:16:46,405 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\SysPropVar\src\test\resources
+2024-12-25 17:16:46,967 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Test:Test:0.0.1-SNAPSHOT @ C:\Users\0035G3744\git\JavaPractice\Test\pom.xml.
+2024-12-25 17:16:47,255 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-12-25 17:16:47,257 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\Test\src\main\resources
+2024-12-25 17:16:47,259 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-12-25 17:16:47,260 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\Test\src\test\resources
+2024-12-25 17:16:47,710 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DemoTest:TestNGDemo:0.0.1-SNAPSHOT @ C:\Users\0035G3744\git\JavaPractice\TestNGDemo\pom.xml.
+2024-12-25 17:16:48,940 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:16:48,941 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\TestNGDemo\src\main\resources
+2024-12-25 17:16:48,946 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:16:48,946 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\TestNGDemo\src\test\resources
+2024-12-25 17:17:25,717 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Demo:TestNgCucumber:0.0.1-SNAPSHOT @ C:\Users\0035G3744\git\JavaPractice\TestNgCucumber\pom.xml.
+2024-12-25 17:17:26,651 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:17:26,652 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\TestNgCucumber\src\main\resources
+2024-12-25 17:17:26,654 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:17:26,654 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\TestNgCucumber\src\test\resources
+2024-12-25 17:17:38,379 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cucumber:cucumberDemo:0.0.1-SNAPSHOT @ C:\Users\0035G3744\git\JavaPractice\cucumberDemo\pom.xml.
+2024-12-25 17:17:39,331 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:17:39,331 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\cucumberDemo\src\main\resources
+2024-12-25 17:17:39,334 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:17:39,334 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\cucumberDemo\src\test\resources
+2024-12-25 17:17:50,671 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:17:50,673 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\TestNgCucumber\src\main\resources
+2024-12-25 17:17:50,674 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:17:50,674 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\TestNgCucumber\src\test\resources
+2024-12-25 17:17:57,798 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:17:57,798 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\cucumberDemo\src\main\resources
+2024-12-25 17:17:57,799 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:17:57,800 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\cucumberDemo\src\test\resources
+2024-12-25 17:18:34,640 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:18:34,641 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\TestNgCucumber\src\main\resources
+2024-12-25 17:18:34,645 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:18:34,646 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\TestNgCucumber\src\test\resources
+2024-12-25 17:18:34,679 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:18:34,679 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\cucumberDemo\src\main\resources
+2024-12-25 17:18:34,682 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-12-25 17:18:34,683 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\0035G3744\git\JavaPractice\cucumberDemo\src\test\resources
