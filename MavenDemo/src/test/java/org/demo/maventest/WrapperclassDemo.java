@@ -21,6 +21,9 @@ public class WrapperclassDemo {
 		Integer i1 = Integer.parseInt(str);
 		System.out.println(i1);
 		
+		int j=7;
+		String s = Integer.toString(j);
+		System.out.println(s);
 
 	}
 

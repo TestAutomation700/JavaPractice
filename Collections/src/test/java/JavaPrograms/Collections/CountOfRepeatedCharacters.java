@@ -36,7 +36,7 @@ public class CountOfRepeatedCharacters {
 
 		while (iter.hasNext()) {
 
-			Map.Entry mp = (Map.Entry) iter.next();
+			Map.Entry mp = (Map.Entry)iter.next();
 
 			if (mp.getValue().equals(1)) {
 
