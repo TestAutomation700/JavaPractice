@@ -9,7 +9,7 @@ public class TreeSetDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		TreeSet s = new TreeSet(); //Treeset allows only homogeneous elements
+		TreeSet<String> s = new TreeSet<String>(); //Treeset allows only homogeneous elements
 		
 		s.add("Test");
 		s.add("Test1");
@@ -17,7 +17,7 @@ public class TreeSetDemo {
 		//s.add(2); only homogeneous elements
 		// s.add(null); null is not allowed in TreeSet
 		
-Iterator itr = s.iterator();
+Iterator<String> itr = s.iterator();
 		
 		while(itr.hasNext()) {
 			
