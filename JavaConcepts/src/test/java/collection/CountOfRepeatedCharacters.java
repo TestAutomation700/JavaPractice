@@ -1,4 +1,4 @@
-package JavaPrograms.Collections;
+package collection;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -31,20 +31,12 @@ public class CountOfRepeatedCharacters {
 
 		System.out.println(hmap);
 
-		Set m = hmap.entrySet();
-		Iterator iter = m.iterator();
 
-		while (iter.hasNext()) {
-
-			Map.Entry mp = (Map.Entry) iter.next();
-
-			if (mp.getValue().equals(1)) {
-
-				System.out.println(mp.getKey() + " " + mp.getValue());
-			}
-
+		for (Map.Entry<Character, Integer> mp : hmap.entrySet()) {
+		    if (mp.getValue().equals(1)) {
+		        System.out.println(mp.getKey() + " " + mp.getValue());
+		    }
 		}
-
 	}
 
 }

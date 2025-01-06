@@ -1,3 +1,4 @@
+package JavaPrograms.SampleJavaPrograms;
 
 public class Test {
 
