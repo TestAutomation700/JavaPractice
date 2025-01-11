@@ -14,7 +14,7 @@ public class Practice {
 	@Test
 	public void iterateOverOptions() {
 	       
-		System.setProperty("webdriver.chrome.driver", "C:\\DriverFiles\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\DriverFiles\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
  

@@ -1,14 +1,14 @@
 package org.demo.maventest;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserLaunchTest {
 	
@@ -17,10 +17,11 @@ public class BrowserLaunchTest {
 	@BeforeTest
 	public void launchBrowser() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\DriverFiles\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\DriverFiles\\chromedriver.exe");
+		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize(); //maximize the window
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
 		driver.get("https://google.com");		
 
