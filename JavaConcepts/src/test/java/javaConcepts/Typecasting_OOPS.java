@@ -13,7 +13,7 @@ class Computer {
 		System.out.println("Graphics unit");
 	}
 }
-
+     
 class Laptop extends Computer {
 
 	public void display() {

@@ -1,8 +1,12 @@
 package org.demo.maventest;
 
-public class Factorial {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class Factorial {
+	
+	@Test
+
+	public void factorial (){
 		// TODO Auto-generated method stub
 		
 		
