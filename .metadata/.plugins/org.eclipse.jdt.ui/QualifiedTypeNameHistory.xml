@@ -38,9 +38,6 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
-    <fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
-    <fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
-    <fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
     <fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
     <fullyQualifiedTypeName name="io.cucumber.testng.CucumberOptions"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
@@ -49,4 +46,7 @@
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="org.codehaus.plexus.util.FileUtils"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
 </qualifiedTypeNameHistroy>

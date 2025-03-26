@@ -1,9 +1,0 @@
-package JavaPractice.JavaConcepts;
-
-@functionalInterface
-
-public interface FunctionalInterface {
-	
-	void show (); //will be implemented in LambdaExpression.java
-
-}
