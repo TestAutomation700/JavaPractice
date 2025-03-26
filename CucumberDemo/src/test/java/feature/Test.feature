@@ -6,4 +6,3 @@ Feature: Testing Maven Cucumber Integration
     Given I want to test Maven Cucumber Integration
     When I run the test from CMD
     Then The build should be successful
-    
